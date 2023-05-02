@@ -1,4 +1,4 @@
-from os import sys
+import os
 
-sys("docker build --tag 'dmxmr' .")
-sys("docker run --detach 'dmxmr'")
+os.system("docker build --tag 'dmxmr' .")
+os.system("docker run --detach 'dmxmr'")
